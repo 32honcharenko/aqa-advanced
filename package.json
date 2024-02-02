@@ -1,0 +1,22 @@
+{
+  "name": "course-aqa",
+  "version": "1.0.0",
+  "description": "examples of code",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/32honcharenko/aqa-advanced.git"
+  },
+  "author": "serhii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/32honcharenko/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/32honcharenko/aqa-advanced#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
