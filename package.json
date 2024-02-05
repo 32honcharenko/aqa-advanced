@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/32honcharenko/aqa-advanced#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "jest": "^29.7.0"
   }
 }
