@@ -1,0 +1,7 @@
+const averageGrade = 85;
+
+if (averageGrade < 60) { console.log ("Незадовільно")};
+if (averageGrade >= 60 && averageGrade <=70 ) { console.log ("Задовільно")};
+if (averageGrade > 70 && averageGrade <=80 ) { console.log ("Добре")};
+if (averageGrade > 80 && averageGrade <=90 ) { console.log ("Дуже добре")};
+if (averageGrade > 90 && averageGrade <=100 ) { console.log ("Відмінно")};
