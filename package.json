@@ -1,6 +1,7 @@
 {
   "name": "course-aqa",
   "version": "1.0.0",
+  "type": "module",
   "description": "examples of code",
   "main": "1.js",
   "scripts": {
