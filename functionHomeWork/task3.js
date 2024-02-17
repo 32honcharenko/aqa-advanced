@@ -14,7 +14,7 @@ function checkOrder (available, ordered) {
     }
 }
     
-checkOrder(10, 11)
+checkOrder(10, 9)
 
 
 
