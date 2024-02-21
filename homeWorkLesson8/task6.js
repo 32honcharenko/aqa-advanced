@@ -1,12 +1,8 @@
-const numbersList = [1,10,14,2,4,5,43,34]
+const numbersList = [1, 10, 14, 2, 4, 5, 43, 34];
 
-const newList = numbersList.sort(function(a, b) {
-    return a - b
-})
+const copiedList = [...numbersList];
 
-const newList2 = numbersList.sort(function(a, b) {
-    return b - a
-})
+copiedList.sort((a, b) => a - b);
 
-console.log (newList)
-console.log (newList2)
+console.log(numbersList);
+console.log(copiedList);
