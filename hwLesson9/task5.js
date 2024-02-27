@@ -23,3 +23,4 @@ for (let {firstName, email, age} of users) {
     console.log(`Name: ${firstName}, Email: ${email}, age: ${age}`)
     
 }
+
