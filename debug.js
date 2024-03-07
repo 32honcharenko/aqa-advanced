@@ -1,3 +1,3 @@
-import { n } from "./nfile.js";
+import { n } from './nfile.js';
 
-console.log (n); 
+console.log(n);

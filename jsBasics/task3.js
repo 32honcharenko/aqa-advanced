@@ -1,6 +1,6 @@
-let myAge = 17;
+const myAge = 17;
 
-let isAdult = myAge >= 18;
+const isAdult = myAge >= 18;
 
 console.log(myAge);
 console.log(isAdult);

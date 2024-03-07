@@ -1,10 +1,6 @@
-function reverseString (text) {
-    const reverseString = text.split('').reverse().join('')
-    return reverseString
+function reverseString(text) {
+  const reverseString = text.split('').reverse().join('');
+  return reverseString;
 }
 
-console.log(reverseString ("123456789"))
-
-
-
-
+console.log(reverseString('123456789'));

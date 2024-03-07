@@ -1,7 +1,5 @@
-const array = [1, 2, 3, 4, 5]
+const array = [1, 2, 3, 4, 5];
 
-const newArray = array.map(function(bla, index){
-    return bla * index
-})
+const newArray = array.map((bla, index) => bla * index);
 
-console.log(newArray)
+console.log(newArray);
