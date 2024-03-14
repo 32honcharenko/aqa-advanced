@@ -1,8 +1,8 @@
-function bla (num) {
-    console.log (num)
+function bla(num) {
+  console.log(num);
 
-    if (num > 0) {
-        bla (num-1)
-    }     
+  if (num > 0) {
+    bla(num - 1);
+  }
 }
-bla(5)
+bla(5);

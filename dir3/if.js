@@ -5,7 +5,7 @@ function checkAge(age) {
 }
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = ages.find(checkAge);
+  document.getElementById('demo').innerHTML = ages.find(checkAge);
 }
 
-console.log(filteredAges)
+console.log(filteredAges);

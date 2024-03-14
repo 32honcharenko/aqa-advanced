@@ -6,4 +6,3 @@ copiedList.sort((a, b) => a - b);
 
 console.log(numbersList);
 console.log(copiedList);
-
