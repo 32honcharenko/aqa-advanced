@@ -3,6 +3,8 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
+    viewportHeight: 800,
+    viewportWidth: 1300,
     experimentalStudio: true,
     retries: {
       openMode: 2,

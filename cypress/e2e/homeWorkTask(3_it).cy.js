@@ -4,7 +4,7 @@ describe('template spec', () => {
   });
 
   /* ==== Test Created with Cypress Studio ==== */
-  it('it1', function () {
+  it('it1', () => {
     /* ==== Generated with Cypress Studio ==== */
     cy.visit('www.guru99.com');
     cy.contains('SAP Beginner').should('exist');
@@ -19,7 +19,7 @@ describe('template spec', () => {
   });
 
   /* ==== Test Created with Cypress Studio ==== */
-  it('it2', function () {
+  it('it2', () => {
     /* ==== Generated with Cypress Studio ==== */
     cy.visit('www.guru99.com');
     cy.contains('COBOL').should('exist');
@@ -33,7 +33,7 @@ describe('template spec', () => {
   });
 
   /* ==== Test Created with Cypress Studio ==== */
-  it('it3', function () {
+  it('it3', () => {
     /* ==== Generated with Cypress Studio ==== */
     cy.visit('www.guru99.com');
     cy.get(
