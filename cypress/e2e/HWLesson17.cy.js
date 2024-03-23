@@ -1,7 +1,7 @@
 describe('template spec', () => {
 
 
-  /*it('checkMandatory', () => {
+  it('checkMandatory', () => {
     
     cy.visit('https://qauto.forstudy.space/panel/garage', {
       failOnStatusCode: false,
@@ -131,7 +131,7 @@ describe('template spec', () => {
     
     
   });
-*/
+
 
   it('LogIn', () => {
     
