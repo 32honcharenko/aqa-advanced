@@ -6,11 +6,13 @@ export default defineConfig({
     viewportHeight: 800,
     viewportWidth: 1300,
     experimentalStudio: true,
+    reporter: 'cypress-mochawesome-reporter',
     retries: {
       openMode: 2,
     },
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
 });
